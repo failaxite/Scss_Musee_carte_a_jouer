@@ -1,0 +1,35 @@
+.principale-navbar{
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    height: 110px;
+    transition: all, 0.5s;
+
+
+    .nav-navbar {
+        height: 100%;
+        list-style-type: none;
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+
+        .nav-item {
+            flex-grow: 1;
+            text-align: center;
+            flex-basis: 0;
+            flex-grow: 1;
+            font-weight: bold;
+            text-decoration: none;
+
+            .nav-link {
+                flex-grow: 1;
+                color: #f8f9fa;
+                font-weight: bold;
+                text-decoration: none;
+              }
+        }
+
+      }
+  }

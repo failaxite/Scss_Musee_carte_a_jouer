@@ -1,0 +1,32 @@
+.footer {
+    position: relative;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    padding: 20px 0;
+    margin-top: 50px;
+
+    .infos {
+        text-align: right;
+        color: #fff;
+        opacity: 1;
+        width: 50%;
+        margin-bottom: -1px;
+        padding: 0 4px;
+        font-size: 14px;
+
+        a {
+            color: inherit;
+            display: inline-block;
+          }
+      }
+
+    .links a {
+        display: inline-block;
+        margin: 0 15px;
+        color: #fff;
+        opacity: 1;
+        font-size: 14px;
+      }
+
+  }
